@@ -74,14 +74,13 @@ const openModal = function (event) {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
   const photoModal = document.getElementById("photoModal");
-  photoModal.src = event.currentTarget.querySelector('img').src;
+  photoModal.src = event.currentTarget.querySelector("img").src;
   const titreModal = document.getElementById("titreModal");
   titreModal.innerText = event.currentTarget.querySelector("p").innerText;
 
-const modalRecette = document.getElementById('modalRecette');
-const modalRecettehidden2 = event.currentTarget.querySelector('div');
-modalRecette.innerText = modalRecettehidden2.innerText;
-
+  const modalRecette = document.getElementById("modalRecette");
+  const modalRecettehidden2 = event.currentTarget.querySelector("div");
+  modalRecette.innerText = modalRecettehidden2.innerText;
 };
 
 const closeModal = function () {

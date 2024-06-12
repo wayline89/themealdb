@@ -72,7 +72,6 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 0.4rem;
     width: 850px;
     padding: 1.3rem;
     min-height: 250px;
@@ -89,6 +88,11 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 425px;
+}
+
+.flex img{
+    border-radius: 15%;
 }
 
 .modal input {
@@ -108,10 +112,19 @@ p {
     width: 50%;
 
 }
+.modal h3{
+    margin-top: 0px;
+}
  
 .modalDiv{
 text-align: center;
 }
+
+.modalDiv p {
+padding-inline: 15% ;
+line-height: 30px;
+}
+
 
 button {
     cursor: pointer;
@@ -132,10 +145,15 @@ button {
 
 
 .btn-close {
-    transform: translate(45%, -190px);
+    transform: translate(165px, -400px);
     padding: 0.5rem 0.7rem;
-    background: #eee;
+    position: relative;
+    background: rgba(0,0,0,0.0);
+    color: wheat;
+    font-size: 2rem; 
     border-radius: 45%;
+    margin-inline: 409px;
+    padding-block: 0%;
 }
 
 .overlay {
@@ -155,3 +173,4 @@ button {
 .hidden {
     display: none;
 }
+
