@@ -1,0 +1,157 @@
+body {
+    align-items: center;
+    position: relative;
+}
+
+.BigDiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-inline: 7.25rem;
+}
+
+
+.questionnaire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-inline: 5px;
+}
+
+input {
+    margin-inline: .3125rem;
+}
+
+button {
+    margin-inline: 2px;
+}
+
+
+.card {
+    width: 200px;
+    height: 280px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: 1px solid red;
+    border-radius: 5px;
+    background: goldenrod;
+    margin: 10px;
+}
+
+.card p {
+    align-content: center;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+img {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+    padding-inline: 5px;
+}
+
+/* fdkhjghfkj */
+
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 850px;
+    padding: 1.3rem;
+    min-height: 250px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    z-index: 2;
+}
+
+.modal .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal input {
+    padding: 0.7rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.modal p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0.4rem 0 0.2rem;
+}
+
+.modal img {
+    width: 50%;
+
+}
+ 
+.modalDiv{
+text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    font-weight: 600;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 1.4rem;
+    font-weight: 700;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+
+.btn-close {
+    transform: translate(45%, -190px);
+    padding: 0.5rem 0.7rem;
+    background: #eee;
+    border-radius: 45%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+
+.hidden {
+    display: none;
+}

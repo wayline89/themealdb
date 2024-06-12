@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="questionnaire">
+        <h3>nourriture </h3>
+        <input type="text" id="myText" placeholder="ingredient">
+        <button onclick="myFunction()">recherche</button>
+    </div>
+    <h2 id="coco"></h2>
+
+    <div class="BigDiv"></div>
+
+    <section class="modal hidden">
+        <div class="flex">
+            <img src="user.png" id="photoModal" alt="user" />
+            <button class="btn-close">⨉</button>
+        </div>
+        <div class="modalDiv">
+            <h3 id="titreModal"></h3>
+            <p id="modalRecette"></p>
+        </div>
+    </section>
+
+    <div class="overlay hidden"></div>
+
+
+</body>
+<script src="./app.js"></script>
+
+</html>
