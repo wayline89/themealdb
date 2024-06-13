@@ -1,13 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 body {
     align-items: center;
     position: relative;
+    background-image: url('./Vegetables_Melons_Cabbage_Tomatoes_Carrots_537576_1280x845.jpg');
+    background-repeat: stretch;
+    background-size: 100%;
+    height: 100%;
 }
+
+
+
 
 .BigDiv {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     margin-inline: 7.25rem;
+    background: rgba(255, 255, 255, 0.209);
+    border-radius: 15px;
 }
 
 
@@ -15,6 +27,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: rgba(0, 198, 0, 0.589);
+}
+
+.questionnaire button {
+    color: rgba(0, 198, 0, 0.589);
+
+
 }
 
 h2 {
@@ -63,6 +82,12 @@ img {
 p {
     text-align: center;
     padding-inline: 5px;
+    color: rgba(0, 130, 0, 0.589);
+}
+
+.card p {
+    align-content: center;
+    color: black;
 }
 
 /* fdkhjghfkj */
@@ -71,7 +96,7 @@ p {
 .modal {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     width: 850px;
     padding: 1.3rem;
     min-height: 250px;
@@ -82,17 +107,34 @@ p {
     border: 1px solid #ddd;
     border-radius: 15px;
     z-index: 2;
+    background: rgb(255, 199, 79);
+    background: linear-gradient(349deg, rgba(255, 199, 79, 1) 0%, rgba(227, 157, 8, 1) 52%, rgba(255, 199, 79, 1) 100%);
+}
+
+.modal p {
+    color: black;
+    font-family: "EB Garamond";
+
 }
 
 .modal .flex {
     display: flex;
-    align-items: center;
     justify-content: space-around;
     height: 425px;
+    font-family: "EB Garamond";
 }
 
-.flex img{
+.flex img {
     border-radius: 15%;
+}
+
+.flex .ingrlisting {
+    width: 26%;
+    align-self: center;
+}
+
+.flex ul {
+    padding-inline-start: 0px;
 }
 
 .modal input {
@@ -103,8 +145,6 @@ p {
 }
 
 .modal p {
-    font-size: 0.9rem;
-    color: #777;
     margin: 0.4rem 0 0.2rem;
 }
 
@@ -112,17 +152,27 @@ p {
     width: 50%;
 
 }
-.modal h3{
+
+.modal h3 {
     margin-top: 0px;
 }
- 
-.modalDiv{
-text-align: center;
+
+.modalDiv {
+    text-align: center;
+}
+
+.modalDiv ul {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.modal li {
+    line-height: 25px;
 }
 
 .modalDiv p {
-padding-inline: 15% ;
-line-height: 30px;
+    padding-inline: 15%;
+    line-height: 30px;
 }
 
 
@@ -145,12 +195,12 @@ button {
 
 
 .btn-close {
-    transform: translate(165px, -400px);
+    transform: translate(395px, -416px);
     padding: 0.5rem 0.7rem;
     position: relative;
-    background: rgba(0,0,0,0.0);
+    background: rgba(0, 0, 0, 0.0);
     color: wheat;
-    font-size: 2rem; 
+    font-size: 2rem;
     border-radius: 45%;
     margin-inline: 409px;
     padding-block: 0%;
@@ -173,4 +223,3 @@ button {
 .hidden {
     display: none;
 }
-
